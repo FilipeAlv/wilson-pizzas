@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Wilson Pizzas</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="titles_Principal">
+        <item>Salgados</item>
+        <item>Bebidas</item>
+    </string-array>
+
+    <string-array name="titles_Secundaria_tab_1">
+        <item>Pizzas</item>
+        <item>Pasteis de Forno</item>
+        <item>Porções</item>
+        <item>Outros</item>
+    </string-array>
+
+    <string-array name="titles_Secundaria_tab_2">
+        <item>Sucos</item>
+        <item>Refrigerantes</item>
+        <item>Quentes</item>
+        <item>Cervejas</item>
+        <item>Energéticos</item>
+        <item>Outras</item>
+    </string-array>
+
+    <string name="title_activity_card">card</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_meus_pedidos">Meus Pedidos</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="cadastro_1">
+        Para fazer o seu cadastro vamos precisar de algumas informações sobre você....
+    </string>
+
+    <string name="cadastro_2">
+        Agora vamos precisar do seu endereço para que não haja nenhum erro na entrega de seus pedidos.
+    </string>
+
+    <string name="cadastro_3">
+        Informe um número de telefone.
+    </string>
+
+    <string name="cadastro_4">
+        Insira o código de confirmação que enviamos para o seu telefone.
+    </string>
+
+    <string name="cadastro_5">
+        Precisamos agora do seu telefone e que você crie uma senha para acessar nosso aplicativo em qualquer dispositivo.
+    </string>
+
+    <string name="facebook_app_id">436373616896027</string>
+
+    <string name="cidade">Cidade</string>
+
+    <string name="fora_do_horario">Desculpe! O horário de pedidos é de 18:00 às 23:30.</string>
+
+    <string-array name="cidades_list">
+        <item>Salgueiro</item>
+    </string-array>
+    <string name="title_activity_esqueci__minha__senha">activity_esqueci_minha_senha</string>
+
+</resources>
+
+

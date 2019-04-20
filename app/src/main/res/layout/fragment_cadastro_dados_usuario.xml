@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="br.com.carlinhospizza.fragments.CadastroDadosUsuarioFragment"
+    >
+
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:text="@string/cadastro_1"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="30px"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical"
+        android:textAlignment="gravity">
+
+        <EditText
+            android:id="@+id/edNome"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:hint="Nome Completo"
+            android:background="@drawable/estilo_edittext"
+            android:inputType="textCapWords"
+            android:nextFocusDown="@id/edCPF"
+            />
+
+        <EditText
+            android:id="@+id/edCPF"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/estilo_edittext"
+            android:hint="CPF"
+            android:inputType="number"
+            android:nextFocusDown="@id/edData_nascimento"/>
+
+        <!--<EditText-->
+            <!--android:id="@+id/edRG"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_margin="15dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:padding="10dp"-->
+            <!--android:background="@drawable/estilo_edittext"-->
+            <!--android:hint="RG"-->
+            <!--android:inputType="numberDecimal"-->
+            <!--android:nextFocusDown="@id/edData_nascimento"/>-->
+
+        <EditText
+            android:id="@+id/edData_nascimento"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/estilo_edittext"
+            android:hint="Data de nascimento"
+            android:inputType="date"
+            android:nextFocusDown="@id/btn_ProximoEndereco"/>
+
+
+    </LinearLayout>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:foregroundGravity="center"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:elevation="20dp"
+        android:id="@+id/progressBarCadastro"
+        android:background="#ffffff"
+        />
+    <Button
+        android:id="@+id/btn_ProximoEndereco"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="18dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/btn_proximo" />
+
+
+</RelativeLayout>

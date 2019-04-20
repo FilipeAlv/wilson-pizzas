@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:textAlignment="gravity">
+
+            <EditText
+                android:id="@+id/edNomeRua"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/estilo_edittext"
+                android:hint="Nome da rua"
+                android:padding="10dp"
+                android:inputType="textCapWords"
+                android:nextFocusDown="@id/edBairro"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/edBairro"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/estilo_edittext"
+                android:hint="Bairro"
+                android:inputType="textCapWords"
+                android:padding="10dp"
+                android:nextFocusRight="@id/edNumeroCasa"/>
+
+            <EditText
+                android:id="@+id/edNumeroCasa"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_margin="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/estilo_edittext"
+                android:hint="N°"
+                android:inputType="number"
+                android:padding="10dp"
+                android:nextFocusDown="@id/edCidade"/>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <Spinner
+                android:id="@+id/edCidade"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/estilo_edittext"
+                android:entries="@array/cidades_list"
+                android:prompt="@string/cidade"
+                android:nextFocusRight="@id/edCep"/>
+
+
+
+            <EditText
+                android:id="@+id/edCep"
+                android:layout_width="280dp"
+                android:layout_height="50dp"
+                android:layout_margin="15dp"
+                android:layout_weight="1"
+                android:inputType="number"
+                android:background="@drawable/estilo_edittext"
+                android:hint="CEP"
+                android:padding="10dp"
+                android:nextFocusDown="@id/edPontoDeReferencia"/>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/edPontoDeReferencia"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/estilo_edittext"
+            android:hint="Ponto de referência"
+            android:padding="10dp"
+            android:inputType="text"/>
+        <EditText
+            android:id="@+id/edLograduouro"
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

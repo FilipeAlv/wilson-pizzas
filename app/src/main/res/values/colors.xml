@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff5500</color>
+    <color name="colorPrimaryDark">#bf4e2c</color>
+    <color name="colorAccent">#afa6a9</color>
+
+
+    <color name="colorTabText">#afa6a9</color>
+    <color name="colorTabTextSelected">#000000</color>
+
+    <color name="colorTabPrincipal">#ffffff</color>
+
+    <color name="colorFabDisponivel">#ffffff</color>
+    <color name="colorFabIndisponivel">#878383</color>
+    <color name="colorFabSelecionado">#78ec3e</color>
+
+    <color name="colorTextNomeCard">#34810e</color>
+
+    <color name="fundosplash">#ffffff</color>
+
+    <color name="fabPedidos">#ff0400</color>
+    <color name="fabPedidosAtivo">#fff200</color>
+
+    <color name="colorLinkCadastro">#1e3ccf</color>
+
+    <color name="colorEditText">#6d6d70</color>
+    <color name="colorBackButton">#dbdce1</color>
+    <color name="colorEsqueceuSenha">#000000</color>
+
+    <color name="contornoCard">#90ef4848</color>
+    <color name="contornoCardSelecionado">#259330</color>
+
+    <color name="botaoAlert">#259330</color>
+
+
+</resources>

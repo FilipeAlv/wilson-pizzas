@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "285461583900",
+    "firebase_url": "https://wilsonpizzas-3068c.firebaseio.com",
+    "project_id": "wilsonpizzas-3068c",
+    "storage_bucket": "wilsonpizzas-3068c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:285461583900:android:1d42a6e1320e3aa4",
+        "android_client_info": {
+          "package_name": "br.com.wilsonpizzas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "285461583900-b8kh6s93kgc3553tv5g031fttte2m1dj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.wilsonpizzas",
+            "certificate_hash": "45f408a046823a4e6bd7af20041d20ba8b21da77"
+          }
+        },
+        {
+          "client_id": "285461583900-7ma8ksjihf59o2n0diakn89foeqcc96a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaBwIP74TidkRJHBdBs7MLzE1nEt9xJu8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "285461583900-7ma8ksjihf59o2n0diakn89foeqcc96a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

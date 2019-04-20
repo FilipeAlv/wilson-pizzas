@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context="br.com.carlinhospizza.activity.NovaSenha">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <EditText
+            android:id="@+id/ednovaSenha"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:hint="Nova Senha"
+            android:background="@drawable/estilo_edittext"
+            android:padding="10dp"
+            android:inputType="textPassword"
+            />
+        <EditText
+            android:id="@+id/edConfirmarNovaSen"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:hint="Confirmar Senha"
+            android:background="@drawable/estilo_edittext"
+            android:padding="10dp"
+            android:inputType="textPassword"
+            />
+
+        <Button
+            android:id="@+id/btn_salvar"
+            android:layout_width="297dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/estilo_botao"
+            android:layout_marginTop="20dp"
+            android:color="@color/colorTextNomeCard"
+            android:shape="rectangle"
+            android:text="Salvar"
+            android:textColor="@color/colorTextNomeCard" />
+
+
+    </LinearLayout>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:foregroundGravity="center"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:elevation="20dp"
+        android:id="@+id/progressBarNovaSenha"
+        android:background="#ffffff"
+        />
+</RelativeLayout>
